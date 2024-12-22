@@ -6,4 +6,10 @@ public class MyClassNew {
         return "Hello";
     }
 
+    String getString2()
+    {
+        return "Hello2";
+    }
+
+
 }
