@@ -5,4 +5,9 @@ public class MyClass {
     {
         return "Hello123";
     }
+
+    String getString1()
+    {
+        return "Hello1234";
+    }
 }
