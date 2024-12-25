@@ -58,4 +58,22 @@ public class BookingController {
     {
         return "Hi child11";
     }
+
+    @GetMapping("/getdetails20")
+    public String getDetails20()
+    {
+        return "Hi child20";
+    }
+
+    @GetMapping("/getdetails21")
+    public String getDetails21()
+    {
+        return "Hi child21";
+    }
+
+    @GetMapping("/getdetails31")
+    public String getDetails31()
+    {
+        return "Hi child31";
+    }
 }
