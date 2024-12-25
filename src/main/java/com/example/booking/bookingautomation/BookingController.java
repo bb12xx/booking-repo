@@ -19,4 +19,10 @@ public class BookingController {
         return "Hi main1";
     }
 
+    @GetMapping("/getdetailsmain2")
+    public String getDetailsmain2()
+    {
+        return "Hi main2";
+    }
+
 }
