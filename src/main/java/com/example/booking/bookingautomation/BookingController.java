@@ -12,7 +12,18 @@ public class BookingController {
     {
         return "Hi main";
     }
+    @GetMapping("/getdetailschild")
+    public String getdetailschild()
+    {
+        return "Hi child";
+    }
 
+
+    @GetMapping("/getdetailsChild1")
+    public String getDetailsChild1()
+    {
+        return "Hi childChild1";
+    }
     @GetMapping("/getdetailsmain1")
     public String getDetailsmain1()
     {
