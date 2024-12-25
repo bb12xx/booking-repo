@@ -52,4 +52,10 @@ public class BookingController {
     {
         return "Hi child41";
     }
+
+    @GetMapping("/getdetailsChild1")
+    public String getDetailsChild1()
+    {
+        return "Hi childChild1";
+    }
 }
