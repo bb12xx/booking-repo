@@ -36,4 +36,10 @@ public class BookingController {
         return "Hi main2";
     }
 
+
+    @GetMapping("/getdetailsChild111")
+    public String getDetailsChild111()
+    {
+        return "Hi childChild111";
+    }
 }
