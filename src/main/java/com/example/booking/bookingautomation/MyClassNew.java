@@ -11,5 +11,16 @@ public class MyClassNew {
         return "Hello2";
     }
 
+    String getString3()
+    {
+        return "Hello3";
+    }
+
+    String getString4()
+    {
+        return "Hello4";
+    }
+
+
 
 }
