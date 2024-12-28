@@ -48,4 +48,16 @@ public class BookingController {
     {
         return "Hi getnewmergemain";
     }
+
+    @GetMapping("/getdetailsChildmerge")
+    public String getdetailsChildmerge()
+    {
+        return "Hi getdetailsChildmerge";
+    }
+
+    @GetMapping("/getdetailsChildmerge2")
+    public String getdetailsChildmerge2()
+    {
+        return "Hi getdetailsChildmerge2";
+    }
 }
