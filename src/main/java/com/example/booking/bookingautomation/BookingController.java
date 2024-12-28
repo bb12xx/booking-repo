@@ -42,4 +42,10 @@ public class BookingController {
     {
         return "Hi childChild111";
     }
+
+    @GetMapping("/getnewmergemain")
+    public String getnewmergemain()
+    {
+        return "Hi getnewmergemain";
+    }
 }
